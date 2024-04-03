@@ -264,7 +264,7 @@ p code, li code{
 }
 
 #section4 li::before{
-    content: 
+    content "": 
 }
 
 #section5 p:last-of-type{
@@ -311,18 +311,6 @@ footer{
     box-shadow: var(--box-shadow-sm);
 }
 
-/* --------------BEGIN ACTIVITY STYLES----------------- */
-/* -------------------------------------------------- */
-/*  
-    FOLLOW ALONG IN CLASS AND ADD YOUR STYLES AS INSTRUCTED BELOW
-*/
-/* -------------------------------------------------- */
-
-/* ------------- SECTION 2 STYLES ---------------- */
-/* Practicing the box model & seeing it in action */
-/* content, padding, borders, margin, dev tools, inline, & block elements */
-
-/* For both links in the section */
 
 #section2 a{
     display: block;
@@ -333,19 +321,7 @@ footer{
     width: 50%;
     box-shadow: var(--box-shadow-lg);
 }
-    TO DO: add styles to both links in this section that will:
-        - make these links display as block-level elements
-        - remove the underline
-        - align the text to the center
-        - make the font display at 1.1rem
-        - make the text bold
-        - tell these to be 50% wide in the container
-        - add the large box shadow
-
-/* ADD SELECTOR AND STYLES HERE */
-
-/* For the first link in this section: */
-
+   
 #section2 a:first-of-type{
     background-color: var(--lt-blue);
     color: var(--dk-blue);
